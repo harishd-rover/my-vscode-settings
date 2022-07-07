@@ -1,0 +1,70 @@
+{
+  "code-runner.runInTerminal": true,
+  "editor.mouseWheelZoom": true,
+  "debug.console.closeOnEnd": true,
+  "editor.fontSize": 20,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "none",
+  "code-runner.customCommand": "echo Hello",
+  "explorer.confirmDelete": false,
+  "code-runner.executorMap": {
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+
+    "csharp": "cd $dir && dotnet run",
+    "typescript": "tsc $fileName && node $fileNameWithoutExt.js"
+  },
+  "git.enableSmartCommit": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "prettier.singleQuote": false,
+  "editor.tabSize": 2,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "workbench.colorTheme": "codeSTACKr Theme",
+  "glassit.alpha": 240,
+  "editor.fontFamily": "Hack NF",
+  "diffEditor.maxComputationTime": 10000,
+  "diffEditor.maxFileSize": 100,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
+  "workbench.preferredHighContrastColorTheme": "codeSTACKr Theme",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "workbench.productIconTheme": "fluent-icons",
+  "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.codeLensFontFamily": "Hack NF",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.editor.enablePreview": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.cursorWidth": 2,
+  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"],
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "indentRainbow.colors": [
+    "rgba(0, 108, 220,0.8)",
+    "rgba(0, 210, 234,0.8)",
+    "rgba(98, 186, 39,0.8)",
+    "rgba(242, 73, 130,0.8)",
+    "rgba(254, 233, 7,0.8)",
+    "rgba(255,127,000,0.8)",
+    "rgba(255, 30, 255,0.8)",
+    "rgba(255,000,000,0.8)"
+  ],
+}
