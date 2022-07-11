@@ -74,5 +74,5 @@
   "editor.suggest.preview": true,
   "indenticator.color.dark": "#FFF",
   "indenticator.inner.color.dark": "#FFF",
-  "indenticator.width": 1.75,
+  "indenticator.width": 1.5,
 }
