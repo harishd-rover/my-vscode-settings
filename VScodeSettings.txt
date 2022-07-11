@@ -8,7 +8,6 @@
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "code-runner.customCommand": "echo Hello",
-  "explorer.confirmDelete": false,
   "code-runner.executorMap": {
     "powershell": "powershell -ExecutionPolicy ByPass -File",
 
@@ -50,29 +49,30 @@
   "editor.wordWrap": "on",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  "workbench.editor.enablePreview": false,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "terminal.integrated.cursorWidth": 2,
   "errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"],
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colors": [
-    "rgba(0, 108, 220,0.8)",
-    "rgba(0, 210, 234,0.8)",
-    "rgba(98, 186, 39,0.8)",
-    "rgba(242, 73, 130,0.8)",
-    "rgba(254, 233, 7,0.8)",
-    "rgba(255,127,000,0.8)",
-    "rgba(255, 30, 255,0.8)",
-    "rgba(255,000,000,0.8)"
+    "rgba(98, 186, 39,0.9)",
+    "rgba(254, 233, 7,0.9)",
+    "rgba(255, 30, 255,0.9)",
+    "rgba(0, 210, 234,0.9)",
+    "rgba(255,127,000,0.9)",
+    "rgba(255,000,000,0.9)",
+    "rgba(242, 73, 130,0.9)",
+    "rgba(0, 108, 220,0.9)"
   ],
 
-  
-  "indentRainbow.errorColor": "rgba(128,32,32,0.8)",
-  "indentRainbow.tabmixColor": "rgba(128,32,96,0.8)",
+  "indentRainbow.errorColor": "rgba(128,32,32,0.9)",
+  "indentRainbow.tabmixColor": "rgba(128,32,96,0.9)",
   "better-comments.highlightPlainText": true,
   "editor.suggest.preview": true,
   "indenticator.color.dark": "#FFF",
   "indenticator.inner.color.dark": "#FFF",
-  "indenticator.width": 1.5,
+  "editor.tabCompletion": "on",
+  "indenticator.width": 1,
+  "zenMode.hideActivityBar": false,
+  "indenticator.inner.showHover": false,
 }
