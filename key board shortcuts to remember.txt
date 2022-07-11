@@ -1,0 +1,20 @@
+Toggle FullScreen : F11
+Open Command Pallete : ctrl + shift + p
+search file : ctrl + p
+Go to Line No : ctrl + g
+Toggle Activity bar(Side bar) visibility : alt + b (custom keybind)
+Toggle Primary Side bar Visibility : ctrl + b
+multi-cursor: alt + click
+auto multi-cursor on repeaters : ctrl + d
+Toggle built-in terminal : ctrl + `
+Settings : ctrl + ,
+Find and replace  : ctrl + f 
+quick select word : shift + ctrl + ( => or <= )   :- auto surround
+move code block : select text & alt + keyUp or KeyDown
+Explorer :  ctrl + shift + e
+Global Search: ctrl + shift + f
+Git(Source Control) : ctrl + shift + g
+Extentions :  ctrl + shift + x
+Debugger :  ctrl + shift + d
+Fold All : ctrl + k & ctrl + 0(level)
+Unfold All : ctrl + k & ctrl + j
