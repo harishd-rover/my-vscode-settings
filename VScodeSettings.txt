@@ -61,8 +61,8 @@
     "rgba(0, 210, 234,0.9)",
     "rgba(255,127,000,0.9)",
     "rgba(255,000,000,0.9)",
-    "rgba(242, 73, 130,0.9)",
-    "rgba(0, 108, 220,0.9)"
+    "rgba(0, 108, 220,0.9)",
+    "rgba(242, 73, 130,0.9)"  
   ],
 
   "indentRainbow.errorColor": "rgba(128,32,32,0.9)",
@@ -75,4 +75,6 @@
   "indenticator.width": 1,
   "zenMode.hideActivityBar": false,
   "indenticator.inner.showHover": false,
+  "editor.renderLineHighlight": "all",
+
 }
