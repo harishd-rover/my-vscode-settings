@@ -1,7 +1,7 @@
 {
   "code-runner.runInTerminal": true,
   "editor.mouseWheelZoom": true,
-  "debug.console.closeOnEnd": true,
+  "debug.console.closeOnEnd": false,
   "editor.fontSize": 20,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
@@ -28,9 +28,6 @@
   "workbench.colorTheme": "codeSTACKr Theme",
   "glassit.alpha": 240,
   "editor.fontFamily": "Hack NF",
-  "diffEditor.maxComputationTime": 10000,
-  "diffEditor.maxFileSize": 100,
-  "editor.quickSuggestionsDelay": 5,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
@@ -47,7 +44,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "editor.wordWrap": "on",
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -76,5 +72,4 @@
   "zenMode.hideActivityBar": false,
   "indenticator.inner.showHover": false,
   "editor.renderLineHighlight": "all",
-
 }
