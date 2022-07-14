@@ -64,4 +64,5 @@
   "indenticator.width": 1,
   "indenticator.inner.showHover": false,
   "editor.renderLineHighlight": "all",
+  "prettier.singleQuote": true,
 }
