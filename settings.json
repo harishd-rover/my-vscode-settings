@@ -65,4 +65,5 @@
   "indenticator.inner.showHover": false,
   "editor.renderLineHighlight": "all",
   "prettier.singleQuote": true,
+  "git.autofetch": true,
 }
