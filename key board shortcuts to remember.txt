@@ -2,6 +2,7 @@ Toggle FullScreen : F11
 Open Command Pallete : ctrl + shift + p
 search file : ctrl + p
 Go to Line No : ctrl + g
+format document : shift + alt + f
 Toggle Activity bar(Side bar) visibility : alt + b (custom keybind)
 Toggle Primary Side bar Visibility : ctrl + b
 multi-cursor: alt + click
