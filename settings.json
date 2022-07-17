@@ -22,7 +22,7 @@
   },
   "workbench.colorTheme": "codeSTACKr Theme",
   "glassit.alpha": 240,
-  "editor.fontFamily": "Hack NF",
+  "editor.fontFamily": "Rec Mono Semicasual",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
@@ -34,7 +34,6 @@
   "workbench.productIconTheme": "fluent-icons",
   "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
   "security.workspace.trust.untrustedFiles": "open",
-  "editor.codeLensFontFamily": "Hack NF",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
