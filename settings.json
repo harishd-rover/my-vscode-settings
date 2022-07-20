@@ -8,7 +8,6 @@
   "workbench.startupEditor": "none",
   "code-runner.executorMap": {
     "powershell": "powershell -ExecutionPolicy ByPass -File",
-
     "csharp": "cd $dir && dotnet run",
     "typescript": "tsc $fileName && node $fileNameWithoutExt.js"
   },
@@ -22,7 +21,7 @@
   },
   "workbench.colorTheme": "codeSTACKr Theme",
   "glassit.alpha": 240,
-  "editor.fontFamily": "Rec Mono Semicasual",
+  "editor.fontFamily": "Rec Mono Casual",
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
   "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
@@ -65,4 +64,77 @@
   "editor.renderLineHighlight": "all",
   "prettier.singleQuote": true,
   "git.autofetch": true,
+  "workbench.editor.enablePreview": false,
+  "better-comments.tags": [
+    {
+      //! Red Alert
+      "tag": "!",
+      "color": "#ff4242",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      //? Warning - yellow
+      "tag": "?",
+      "color": "#Fa9f47",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      //* Success - green
+      "tag": "*",
+      "color": "#34c240",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      //todo - blue
+      "tag": "todo",
+      "color": "#d5e7f7",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#0da2ff",
+      "bold": false,
+      "italic": true
+    },
+    {
+      ////strikeOut - grey
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      //## description
+      "tag": "##", 
+      "color": "#d15ea9",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      //# Title
+      "tag": "#", 
+      "color": "#f8ff21",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false,
+    },
+  ],
 }
