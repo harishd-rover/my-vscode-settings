@@ -69,7 +69,7 @@
     {
       //! Red Alert
       "tag": "!",
-      "color": "#ff4242",
+      "color": "#FF1700",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -79,7 +79,7 @@
     {
       //? Warning - yellow
       "tag": "?",
-      "color": "#Fa9f47",
+      "color": "#FFE400",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -89,7 +89,7 @@
     {
       //* Success - green
       "tag": "*",
-      "color": "#34c240",
+      "color": "#06FF00",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -97,14 +97,14 @@
       "italic": true
     },
     {
-      //todo - blue
+      // Todo - blue
       "tag": "todo",
-      "color": "#d5e7f7",
+      "color": "#F6F6F6",
       "strikethrough": false,
       "underline": false,
-      "backgroundColor": "#0da2ff",
-      "bold": false,
-      "italic": true
+      "backgroundColor": "#1363DF",
+      "bold": true,
+      "italic": false,
     },
     {
       ////strikeOut - grey
@@ -119,7 +119,7 @@
     {
       //## description
       "tag": "##", 
-      "color": "#d15ea9",
+      "color": "#00EAD3",
       "strikethrough": false,
       "underline": false,
       "backgroundColor": "transparent",
@@ -129,12 +129,32 @@
     {
       //# Title
       "tag": "#", 
-      "color": "#f8ff21",
+      "color": "#FF449F",
       "strikethrough": false,
-      "underline": false,
+      "underline": true,
       "backgroundColor": "transparent",
       "bold": true,
       "italic": false,
     },
+    {
+      //=>input
+      "tag": "=>", 
+      "color": "#F637EC",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false,
+    },
+    {
+      //<=output
+      "tag": "<=", 
+      "color": "#28FFBF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false,
+    }, 
   ],
 }
