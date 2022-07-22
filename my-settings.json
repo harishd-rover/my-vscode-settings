@@ -157,4 +157,7 @@
       "italic": false,
     }, 
   ],
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
 }
