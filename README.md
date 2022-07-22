@@ -1,4 +1,4 @@
-# VSCode Settings
+# My VSCode Settings
 Onetime Pro settings for VS code.
 ## Steps
 1. Download and Install all extensions given in my-extensions-list.txt file.
