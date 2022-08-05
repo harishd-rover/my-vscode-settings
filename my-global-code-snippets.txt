@@ -8,7 +8,7 @@
 	// Example:
 	"console.log:Variable": {
 		"scope": "javascript,typescript",
-		"prefix": "cl",
+		"prefix": "my-clog",
 		"body": [
 						"console.${2|log, dir, error, info, table|}(${1:var});",
 		],
@@ -17,7 +17,7 @@
 
 	"console.log:StringLiteral": {
 		"scope": "javascript,typescript",
-		"prefix": "cls",
+		"prefix": "my-clogstr",
 		"body": [
 			"console.log(`${1:Type...}`);",
 		],
@@ -27,7 +27,7 @@
 	
 	"abstract:class" : {
 		"scope": "javascript,typescript",
-		"prefix": "abc",
+		"prefix": "my-abclass",
 		"body": [
 			"class ${1:ClassName}{",
 			"\tconstructor(){",
@@ -40,19 +40,9 @@
 		],
 		"description": "Abstract class"
 	},
-	"function:normal" : {
-		"scope": "javascript,typescript",
-		"prefix": "fun",
-		"body": [
-			"function ${1:Name}(${2:params}){",
-			"\t${3}",
-			"}"
-		],
-		"description": "basic function snippet"
-	},
 	"function:arrow" : {
 		"scope": "javascript,typescript",
-		"prefix": "afun",
+		"prefix": "my-arrowfunc",
 		"body": [
 			"(${1:params}) => {${2:statements}};",
 		],
@@ -60,7 +50,7 @@
 	},
 	"class:extends": {
 		"scope": "javascript,typescript",
-		"prefix": "cext",
+		"prefix": "my-derivedclass",
 		"body": [
 			"class ${1:DerivedClass} extends ${2:BaseClass}{",
 			"\tconstructor(){",
@@ -74,7 +64,7 @@
 
 	"method:abstract": {
 		"scope": "javascript,typescript",
-		"prefix": "absm",
+		"prefix": "my-absmethod",
 		"body": [
 			"${1:methodName}(${2}) {",
 			"\tthrow new Error('Abstract Method Not Implemented');",
@@ -82,21 +72,4 @@
 		],
 		"description": "Abstract Method"
 	},
-	"creates a nornal class": {
-		"prefix": "class",
-		"body": [
-			"class ${1:ClassName} {",
-			"  constructor(${2}) {",
-			"    ${3}",
-			"  }",
-			"",
-			"  ${4:methodName}(${5}) {",
-			"    ${6}",
-			"  }",
-			"}",
-			""
-		],
-		"description": "creates a nornal class"
-	}
-
 }
