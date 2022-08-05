@@ -65,6 +65,11 @@
   "prettier.singleQuote": true,
   "git.autofetch": true,
   "workbench.editor.enablePreview": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true,
+  },
   "better-comments.tags": [
     {
       //! Red Alert
@@ -157,7 +162,4 @@
       "italic": false,
     }, 
   ],
-  "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
 }
