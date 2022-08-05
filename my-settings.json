@@ -22,6 +22,12 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
   "workbench.colorTheme": "codeSTACKr Theme",
   "glassit.alpha": 240,
   "editor.fontFamily": "Rec Mono Casual",
@@ -40,7 +46,12 @@
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
   "terminal.integrated.cursorWidth": 2,
-  "errorLens.enabledDiagnosticLevels": ["error", "warning", "info", "hint"],
+  "errorLens.enabledDiagnosticLevels": [
+    "error",
+    "warning",
+    "info",
+    "hint"
+  ],
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colors": [
     "rgba(98, 186, 39,0.9)",
@@ -141,6 +152,6 @@
       "backgroundColor": "transparent",
       "bold": true,
       "italic": false
-    },
+    }
   ],
 }
