@@ -9,6 +9,7 @@ esbenp.prettier-vscode
 FallenMax.mithril-emmet
 formulahendry.auto-rename-tag
 formulahendry.code-runner
+johnpapa.Angular2
 kamikillerto.vscode-colorize
 miguelsolorio.fluent-icons
 oderwat.indent-rainbow
@@ -20,6 +21,7 @@ s-nlf-fh.glassit
 SirTori.indenticator
 streetsidesoftware.code-spell-checker
 usernamehw.errorlens
+VisualStudioExptTeam.vscodeintellicode
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
 
