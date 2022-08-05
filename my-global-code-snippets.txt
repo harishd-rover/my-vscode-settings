@@ -12,7 +12,7 @@
 		"body": [
 						"console.${2|log, dir, error, info, table|}(${1:var});",
 		],
-		"description": "Log output to console - String literal"
+		"description": "Console log dir error ... - Variable"
 	},
 
 	"console.log:StringLiteral": {
@@ -21,11 +21,10 @@
 		"body": [
 			"console.log(`${1:Type...}`);",
 		],
-		"description": "Log output to console - Variable"
-	}
-	,
+		"description": "Console log - String literal"
+	},
 	
-	"abstract:class" : {
+	"class:abstract" : {
 		"scope": "javascript,typescript",
 		"prefix": "my-abclass",
 		"body": [
@@ -38,17 +37,19 @@
 			"\t${2}",
 			"}"
 		],
-		"description": "Abstract class"
+		"description": "Creates Abstract class"
 	},
+
 	"function:arrow" : {
 		"scope": "javascript,typescript",
 		"prefix": "my-arrowfunc",
 		"body": [
 			"(${1:params}) => {${2:statements}};",
 		],
-		"description": "Arrow function Syntax"
+		"description": "Creates Arrow function"
 	},
-	"class:extends": {
+
+	"class:derived": {
 		"scope": "javascript,typescript",
 		"prefix": "my-derivedclass",
 		"body": [
@@ -59,7 +60,7 @@
 			"\t${3}",
 			"}"
 		],
-		"description": "Arrow function Syntax"
+		"description": "Creates Derived class from Base class"
 	},
 
 	"method:abstract": {
@@ -70,6 +71,6 @@
 			"\tthrow new Error('Abstract Method Not Implemented');",
 			"}"
 		],
-		"description": "Abstract Method"
+		"description": "Creates Abstract Method"
 	},
 }
