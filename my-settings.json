@@ -13,6 +13,9 @@
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "editor.tabSize": 2,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -33,9 +36,6 @@
   "workbench.productIconTheme": "fluent-icons",
   "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
   "security.workspace.trust.untrustedFiles": "open",
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "breadcrumbs.enabled": false,
@@ -50,7 +50,7 @@
     "rgba(255,127,000,0.9)",
     "rgba(255,000,000,0.9)",
     "rgba(0, 108, 220,0.9)",
-    "rgba(242, 73, 130,0.9)"  
+    "rgba(242, 73, 130,0.9)"
   ],
   "indentRainbow.errorColor": "rgba(128,32,32,0.9)",
   "indentRainbow.tabmixColor": "rgba(128,32,96,0.9)",
@@ -68,8 +68,9 @@
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": true,
+    "source.organizeImports": true
   },
+  "path-intellisense.autoSlashAfterDirectory": true,
   "better-comments.tags": [
     {
       //! Red Alert
@@ -109,7 +110,7 @@
       "underline": false,
       "backgroundColor": "#1363DF",
       "bold": true,
-      "italic": false,
+      "italic": false
     },
     {
       ////strikeOut - grey
@@ -123,7 +124,7 @@
     },
     {
       //## description
-      "tag": "##", 
+      "tag": "##",
       "color": "#00EAD3",
       "strikethrough": false,
       "underline": false,
@@ -133,33 +134,13 @@
     },
     {
       //# Title
-      "tag": "#", 
+      "tag": "#",
       "color": "#FF449F",
       "strikethrough": false,
       "underline": true,
       "backgroundColor": "transparent",
       "bold": true,
-      "italic": false,
+      "italic": false
     },
-    {
-      //=>input
-      "tag": "=>", 
-      "color": "#F637EC",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false,
-    },
-    {
-      //<=output
-      "tag": "<=", 
-      "color": "#28FFBF",
-      "strikethrough": false,
-      "underline": false,
-      "backgroundColor": "transparent",
-      "bold": false,
-      "italic": false,
-    }, 
   ],
 }
