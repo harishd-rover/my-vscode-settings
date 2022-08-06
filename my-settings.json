@@ -33,6 +33,7 @@
     "source.fixAll": true,
     "source.organizeImports": true
   },
+  "editor.linkedEditing": true,
   "code-runner.runInTerminal": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
