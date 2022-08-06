@@ -7,9 +7,9 @@ _[ Tip: manually install one by one by searching in extensions manager (Recommen
 - Download _**My Fonts**_ given in this repository(_**optional**_).
 - Copy and save the content of _**my-settings.json**_ to your VS code _**settings.json**_ file.  
 _[ Tip: To open settings.json press... ctrl+shift+p (opens Command Palette) type... Preferences: Open User Settings (JSON) ]_
-- Copy and save _**my-global-code-snippets.json**_ into your _**new global user code snippets file(create it)**_ in your VS code [Optional] .  
+- Copy and save _**my-global-code-snippets.json**_ into your _**new global user code snippets file(create it)**_ in your VS code [optional].  
 _[ Tip: click on settings(gear icon) then select Configure User Snippets then create your own snippet file ]_
-- Copy and save the content of _**my-keybindings.json**_ to your VS code _**keybindings.json**_ file.  
+- Copy and save the content of _**my-keybindings.json**_ to your VS code _**keybindings.json**_ file [optional].  
 _[ Tip: To open keybindings.json press... ctrl+shift+p (opens Command Palette) type... Preferences: Open Keyboard Shortcuts (JSON) ]_
 - _**Restart VS Code.**_  
 - _**Frequently update your VS code and also check the Update News!!!. VS Code is Replacing most of the extensions by providing as it's built-in features !!!**_
