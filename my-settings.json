@@ -18,8 +18,9 @@
   "editor.mouseWheelZoom": true,
   "editor.fontSize": 20,
   "editor.tabSize": 2,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": "active",
   "editor.guides.bracketPairsHorizontal": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
@@ -34,7 +35,6 @@
     "source.organizeImports": true
   },
   "editor.linkedEditing": true,
-  "editor.guides.bracketPairs": "active",
   "code-runner.runInTerminal": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
