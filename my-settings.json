@@ -25,6 +25,7 @@
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
   "editor.fontFamily": "Rec Mono Casual",
+  "editor.fontLigatures": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.suggest.preview": true,
@@ -35,7 +36,6 @@
     "source.organizeImports": true
   },
   "editor.linkedEditing": true,
-  "editor.fontLigatures": true,
   "code-runner.runInTerminal": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
