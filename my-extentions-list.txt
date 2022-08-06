@@ -29,4 +29,4 @@ Command to install VS code Extentions :
 code --install-extension <extention-name or list>     (use space to separate extentions or install one by one)
 Command to list installed extentions :   code --list-extensions
 
-Tip: Manual install is recommended
+Tip: Manual installations is recommended
