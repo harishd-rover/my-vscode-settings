@@ -7,6 +7,7 @@ dbaeumer.vscode-eslint
 ecmel.vscode-html-css
 esbenp.prettier-vscode
 FallenMax.mithril-emmet
+formulahendry.auto-rename-tag
 formulahendry.code-runner
 johnpapa.Angular2
 kamikillerto.vscode-colorize
@@ -19,6 +20,7 @@ ritwickdey.LiveServer
 s-nlf-fh.glassit
 SirTori.indenticator
 streetsidesoftware.code-spell-checker
+TabNine.tabnine-vscode
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 wix.vscode-import-cost
