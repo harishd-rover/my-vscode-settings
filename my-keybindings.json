@@ -1,0 +1,10 @@
+[
+  {
+    "key": "alt+b",
+    "command": "workbench.action.toggleActivityBarVisibility"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "extension.advancedNewFile",
+  }
+]
