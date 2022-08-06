@@ -1,56 +1,50 @@
 {
-  "code-runner.runInTerminal": true,
-  "editor.mouseWheelZoom": true,
-  "editor.fontSize": 20,
-  "code-runner.saveAllFilesBeforeRun": true,
-  "code-runner.saveFileBeforeRun": true,
+  "workbench.colorTheme": "codeSTACKr Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
+  "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
+  "workbench.preferredHighContrastColorTheme": "codeSTACKr Theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.editor.enablePreview": false,
+  "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
+  "security.workspace.trust.untrustedFiles": "open",
+  "breadcrumbs.enabled": false,
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
+  "git.autofetch": true,
+  "glassit.alpha": 240,
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 20,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.renderLineHighlight": "all",
+  "editor.fontFamily": "Rec Mono Casual",
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.suggest.preview": true,
+  "editor.tabCompletion": "on",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
   "code-runner.executorMap": {
     "powershell": "powershell -ExecutionPolicy ByPass -File",
     "csharp": "cd $dir && dotnet run",
     "typescript": "tsc $fileName && node $fileNameWithoutExt.js"
   },
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "editor.tabSize": 2,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[scss]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "workbench.colorTheme": "codeSTACKr Theme",
-  "glassit.alpha": 240,
-  "editor.fontFamily": "Rec Mono Casual",
-  "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": true,
-  "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
-  "workbench.preferredHighContrastColorTheme": "codeSTACKr Theme",
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line",
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "editor.guides.bracketPairsHorizontal": true,
-  "workbench.productIconTheme": "fluent-icons",
-  "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
-  "security.workspace.trust.untrustedFiles": "open",
-  "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
-  "terminal.integrated.cursorWidth": 2,
   "errorLens.enabledDiagnosticLevels": [
     "error",
     "warning",
-    "info",
-    "hint"
+    "info"
   ],
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colors": [
@@ -65,23 +59,12 @@
   ],
   "indentRainbow.errorColor": "rgba(128,32,32,0.9)",
   "indentRainbow.tabmixColor": "rgba(128,32,96,0.9)",
-  "better-comments.highlightPlainText": true,
-  "editor.suggest.preview": true,
   "indenticator.color.dark": "#FFF",
   "indenticator.inner.color.dark": "#FFF",
-  "editor.tabCompletion": "on",
   "indenticator.width": 1,
   "indenticator.inner.showHover": false,
-  "editor.renderLineHighlight": "all",
-  "prettier.singleQuote": true,
-  "git.autofetch": true,
-  "workbench.editor.enablePreview": false,
-  "editor.formatOnSave": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": true
-  },
   "path-intellisense.autoSlashAfterDirectory": true,
+  "better-comments.highlightPlainText": true,
   "better-comments.tags": [
     {
       //! Red Alert
@@ -154,4 +137,20 @@
       "italic": false
     }
   ],
+  "prettier.singleQuote": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
