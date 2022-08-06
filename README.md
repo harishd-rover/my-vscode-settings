@@ -13,4 +13,4 @@ _[ Click on settings(gear icon) then select Configure User Snippets then create 
 _[ To open keybindings.json press... ctrl+shift+p (opens Command Palette) type... Preferences: Open Keyboard Shortcuts (JSON) ]_
 - _**Restart VS Code.**_  
 - _**Tip : Frequently update your VS code and also check the Update News!!!. VS Code is Replacing most of the extensions by providing as it's built-in features !!!**_
-- _**Enjoy Coding!!!**_
+- _**Enjoy Coding !!!**_
