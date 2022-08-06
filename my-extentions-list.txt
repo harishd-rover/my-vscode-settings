@@ -1,3 +1,7 @@
+Command to install VS code Extentions :
+
+code --install-extension <extention-name or list>     (use space to separate extentions or install one by one)
+
 2gua.rainbow-brackets
 aaron-bond.better-comments
 Angular.ng-template
@@ -29,6 +33,5 @@ xabikos.JavaScriptSnippets
 
 
 
-
-
-Command :   code --list-extensions
+Tip: manual install is recommended
+Command to list installed extentions :   code --list-extensions
