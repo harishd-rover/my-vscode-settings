@@ -24,7 +24,7 @@
   "editor.wordWrap": "on",
   "editor.minimap.enabled": false,
   "editor.renderLineHighlight": "all",
-  "editor.fontFamily": "Rec Mono Casual", // Rec Mono Casual or Cascadia Code or Rec Mono Semicasual
+  "editor.fontFamily": "Rec Mono Casual", // "Rec Mono Casual" or "Cascadia Code" or "Rec Mono Semicasual" or "Fira Code"
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorSmoothCaretAnimation": true,
