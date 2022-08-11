@@ -20,7 +20,7 @@
     "titleBar.activeBackground": "#000",
     "statusBar.background": "#000",
     "panel.background": "#000",
-    "panel.border": "#222",
+    "panel.border": "#333",
     "activityBar.activeBackground": "#000",
   }
   },
