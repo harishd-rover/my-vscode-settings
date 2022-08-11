@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "codeSTACKr Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
   "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
@@ -7,6 +6,24 @@
   "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.enablePreview": false,
   "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
+  "workbench.colorTheme": "codeSTACKr Theme",
+  "workbench.colorCustomizations": {
+  "[codeSTACKr Theme]": {
+    "editor.background": "#000",
+    "sideBar.background": "#000",
+    "sideBarSectionHeader.background": "#000",
+    "sideBar.border": "#222",
+    "activityBar.background": "#000",
+    "editorGroupHeader.tabsBackground": "#000",
+    "tab.activeBackground": "#000",
+    "tab.inactiveBackground": "#000",
+    "titleBar.activeBackground": "#000",
+    "statusBar.background": "#000",
+    "panel.background": "#000",
+    "panel.border": "#222",
+    "activityBar.activeBackground": "#000",
+  }
+  },
   "security.workspace.trust.untrustedFiles": "open",
   "breadcrumbs.enabled": false,
   "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -30,7 +47,7 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.suggest.preview": true,
   "editor.tabCompletion": "on",
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.organizeImports": true
