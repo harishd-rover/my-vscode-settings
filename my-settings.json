@@ -14,6 +14,7 @@
     "sideBarSectionHeader.background": "#000",
     "sideBar.border": "#222",
     "activityBar.background": "#000",
+    "activityBar.activeBorder": "#FF4500",
     "editorGroupHeader.tabsBackground": "#000",
     "tab.activeBackground": "#000",
     "tab.inactiveBackground": "#000",
@@ -21,6 +22,7 @@
     "statusBar.background": "#000",
     "panel.background": "#000",
     "panel.border": "#333",
+    "panelTitle.activeBorder": "#FF4500",
     "activityBar.activeBackground": "#000",
   }
   },
