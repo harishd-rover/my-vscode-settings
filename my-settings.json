@@ -33,6 +33,7 @@
       "panel.background": "#000",
       "panel.border": "#333",
       "panelTitle.activeBorder": "#FF4500",
+      "panelTitle.activeForeground": "#FF4500"
     }
   },
   "security.workspace.trust.untrustedFiles": "open",
@@ -62,7 +63,7 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": true,
+    "source.organizeImports": true
   },
   "editor.linkedEditing": true,
   "code-runner.runInTerminal": true,
