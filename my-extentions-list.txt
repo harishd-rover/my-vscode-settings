@@ -20,11 +20,11 @@ ritwickdey.LiveServer
 s-nlf-fh.glassit
 SirTori.indenticator
 streetsidesoftware.code-spell-checker
-TabNine.tabnine-vscode
 usernamehw.errorlens
 VisualStudioExptTeam.vscodeintellicode
 wix.vscode-import-cost
 xabikos.JavaScriptSnippets
+eamodio.gitlens
 
 
 Command to install VS code Extentions :
