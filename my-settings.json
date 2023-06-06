@@ -19,7 +19,7 @@
       "toolbar.hoverBackground": "#FF4500",
       "titleBar.activeBackground": "#000",
       "statusBar.background": "#ff0000",
-      "statusBarItem.hoverBackground": "#700000",
+      "statusBarItem.hoverBackground": "#450000",
       "sideBar.background": "#000",
       "sideBar.border": "#222",
       "sideBarSectionHeader.background": "#000",
@@ -63,7 +63,7 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
-    "source.organizeImports": true
+    // "source.organizeImports": true
   },
   "editor.linkedEditing": true,
   "code-runner.runInTerminal": true,
