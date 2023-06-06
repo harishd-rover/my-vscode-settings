@@ -18,8 +18,8 @@
       "menu.selectionBackground": "#FF4500",
       "toolbar.hoverBackground": "#FF4500",
       "titleBar.activeBackground": "#000",
-      "statusBar.background": "#000",
-      "statusBarItem.hoverBackground": "#FF4500",
+      "statusBar.background": "#ff0000",
+      "statusBarItem.hoverBackground": "#700000",
       "sideBar.background": "#000",
       "sideBar.border": "#222",
       "sideBarSectionHeader.background": "#000",
@@ -57,7 +57,7 @@
   "editor.fontFamily": "Rec Mono Casual", // "Rec Mono Casual" or "Cascadia Code" or "Rec Mono Semicasual" or "Fira Code"
   "editor.fontLigatures": true,
   "editor.cursorBlinking": "expand",
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.suggest.preview": true,
   "editor.tabCompletion": "on",
   "editor.formatOnSave": false,
@@ -187,4 +187,5 @@
   "[scss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "git.openRepositoryInParentFolders": "always"
 }
