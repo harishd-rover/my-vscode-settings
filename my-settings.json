@@ -1,14 +1,14 @@
 {
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
-  "workbench.preferredDarkColorTheme": "codeSTACKr Theme",
-  "workbench.preferredHighContrastColorTheme": "codeSTACKr Theme",
+  "workbench.preferredDarkColorTheme": "Atom One Darker",
+  "workbench.preferredHighContrastColorTheme": "Atom One Darker",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.enablePreview": false,
   "window.title": "${dirty}${activeFolderShort} / ${activeEditorShort}${separator}${rootName}",
-  "workbench.colorTheme": "codeSTACKr Theme",
+  "workbench.colorTheme": "Atom One Darker",
   "workbench.colorCustomizations": {
-    "[codeSTACKr Theme]": {
+    "[Atom One Darker]": {
       "editor.background": "#000",
       "editorGroupHeader.tabsBackground": "#000",
       "tab.activeBorder": "#FF4500",
@@ -19,7 +19,7 @@
       "toolbar.hoverBackground": "#FF4500",
       "titleBar.activeBackground": "#000",
       "statusBar.background": "#ff0000",
-      "statusBarItem.hoverBackground": "#450000",
+      "statusBarItem.hoverBackground": "#FF4500",
       "sideBar.background": "#000",
       "sideBar.border": "#222",
       "sideBarSectionHeader.background": "#000",
@@ -43,7 +43,7 @@
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
   "git.autofetch": true,
-  "glassit.alpha": 240,
+  "glassit.alpha": 255,
   "editor.mouseWheelZoom": true,
   "editor.fontSize": 20,
   "editor.tabSize": 2,
@@ -78,7 +78,7 @@
     "error",
     "warning",
     "info",
-    "hint"
+    // "hint"
   ],
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colors": [
