@@ -18,7 +18,7 @@
       "menu.selectionBackground": "#FF4500",
       "toolbar.hoverBackground": "#FF4500",
       "titleBar.activeBackground": "#000",
-      "statusBar.background": "#ff0000",
+      "statusBar.background": "#ff0000aa",
       "statusBarItem.hoverBackground": "#FF4500",
       "sideBar.background": "#000",
       "sideBar.border": "#222",
@@ -32,8 +32,9 @@
       "activityBar.inactiveForeground": "#FFFFFF70",
       "panel.background": "#000",
       "panel.border": "#333",
-      "panelTitle.activeBorder": "#FF4500",
-      "panelTitle.activeForeground": "#FF4500"
+      "panelTitle.activeBorder": "#FF0000",
+      "panelTitle.activeForeground": "#FF0000",
+      "panelTitle.inactiveForeground": "#FFFFFF70"
     }
   },
   "security.workspace.trust.untrustedFiles": "open",
