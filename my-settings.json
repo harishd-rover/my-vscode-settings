@@ -7,7 +7,7 @@
   "workbench.preferredHighContrastColorTheme": "Atom One Darker",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.editor.enablePreview": false,
-  "window.title": "${activeEditorShort}${separator}${rootName}", 
+  "workbench.layoutControl.enabled": false,
   "workbench.colorCustomizations": {
     "[Atom One Darker]": {
       "editor.background": "#000",
@@ -47,6 +47,12 @@
   "security.workspace.trust.untrustedFiles": "open",
   "breadcrumbs.enabled": false,
   "workbench.editor.dragToOpenWindow": true,
+
+  //Window 
+  "window.title": "${activeEditorShort}${separator}${rootName}", 
+  "window.commandCenter": false,
+  "window.titleBarStyle": "custom",
+
   // Terminal
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.cursorBlinking": true,
@@ -59,6 +65,7 @@
   "editor.mouseWheelZoom": true,
   "editor.fontSize": 20,
   "editor.tabSize": 2,
+  "editor.stickyScroll.enabled": false,
   "editor.scrollbar.verticalScrollbarSize": 8,
   "editor.scrollbar.horizontalScrollbarSize": 8,
   "editor.overviewRulerBorder": false,
@@ -77,6 +84,7 @@
   "editor.suggest.preview": true,
   "editor.tabCompletion": "on",
   "editor.formatOnSave": false,
+  // "editor.rulers": [80, 120],
   // "editor.codeActionsOnSave": {   // Not recommended
   //   "source.fixAll": "always",
   //   "source.organizeImports": "always"
@@ -112,6 +120,19 @@
       }
     ]
   },
+
+  //Explorer
+  "explorer.compactFolders": false,
+  // "explorer.fileNesting.enabled": true,
+  // "explorer.fileNesting.patterns": {
+  //   "*.ts": "${capture}.js",
+  //   "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+  //   "*.jsx": "${capture}.js",
+  //   "*.tsx": "${capture}.ts",
+  //   "tsconfig.json": "tsconfig.*.json",
+  //   "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
+  // },
+  
   //Code Runner
   "code-runner.runInTerminal": true,
   "code-runner.saveAllFilesBeforeRun": true,
@@ -244,21 +265,4 @@
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "tabnine.experimentalAutoImports": true,
-
-  // newly added
-  // "editor.rulers": [80, 120],
-  "explorer.compactFolders": false,
-  "workbench.editor.labelFormat": "short",
-  "workbench.layoutControl.enabled": false,
-  "window.commandCenter": false,
-  "window.titleBarStyle": "custom",
-  // "explorer.fileNesting.enabled": true,
-  // "explorer.fileNesting.patterns": {
-  //   "*.ts": "${capture}.js",
-  //   "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
-  //   "*.jsx": "${capture}.js",
-  //   "*.tsx": "${capture}.ts",
-  //   "tsconfig.json": "tsconfig.*.json",
-  //   "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
-  // }
 }
