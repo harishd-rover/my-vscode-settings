@@ -1,30 +1,29 @@
-2gua.rainbow-brackets
 aaron-bond.better-comments
-Angular.ng-template
+alefragnani.bookmarks
+angular.ng-template
 christian-kohler.path-intellisense
-codeSTACKr.codestackr-theme
+christopherafbjur.vscode-theme-onedarker
 dbaeumer.vscode-eslint
+eamodio.gitlens
 ecmel.vscode-html-css
 esbenp.prettier-vscode
-FallenMax.mithril-emmet
+fallenmax.mithril-emmet
 formulahendry.auto-rename-tag
 formulahendry.code-runner
-johnpapa.Angular2
-kamikillerto.vscode-colorize
+johnpapa.angular2
 miguelsolorio.fluent-icons
+ms-azuretools.vscode-docker
 oderwat.indent-rainbow
-patbenatar.advanced-new-file
-PKief.material-icon-theme
+pkief.material-icon-theme
 pnp.polacode
-ritwickdey.LiveServer
-s-nlf-fh.glassit
-SirTori.indenticator
-streetsidesoftware.code-spell-checker
+pranaygp.vscode-css-peek
+ritwickdey.liveserver
+sirtori.indenticator
+tabnine.tabnine-vscode
 usernamehw.errorlens
-VisualStudioExptTeam.vscodeintellicode
+visualstudioexptteam.vscodeintellicode
 wix.vscode-import-cost
-xabikos.JavaScriptSnippets
-eamodio.gitlens
+xabikos.javascriptsnippets
 
 
 Command to install VS code Extentions :
