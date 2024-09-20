@@ -1,8 +1,10 @@
 aaron-bond.better-comments
 alefragnani.bookmarks
 angular.ng-template
+christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 christopherafbjur.vscode-theme-onedarker
+cyrilletuzi.angular-schematics
 dbaeumer.vscode-eslint
 eamodio.gitlens
 ecmel.vscode-html-css
@@ -12,22 +14,27 @@ formulahendry.auto-rename-tag
 formulahendry.code-runner
 johnpapa.angular2
 miguelsolorio.fluent-icons
+mongodb.mongodb-vscode
 ms-azuretools.vscode-docker
+ms-vscode.hexeditor
 oderwat.indent-rainbow
 pkief.material-icon-theme
 pnp.polacode
 pranaygp.vscode-css-peek
+rangav.vscode-thunder-client
 ritwickdey.liveserver
 sirtori.indenticator
 tabnine.tabnine-vscode
 usernamehw.errorlens
 visualstudioexptteam.vscodeintellicode
+vsls-contrib.codetour
 wix.vscode-import-cost
 xabikos.javascriptsnippets
 
 
 Command to install VS code Extentions :
-code --install-extension <extention-name or list>     (use space to separate extentions or install one by one)
-Command to list installed extentions :   code --list-extensions
+>  code --install-extension <extention-name or list>     (use space to separate extentions or install one by one)
+Command to list installed extentions :  
+>  code --list-extensions
 
-Tip: Manual installations is recommended
+Tip: Manual installations is recommended.
