@@ -1,5 +1,6 @@
+// Total Lines : 316
 {
-  // Workbench settings
+  // Workbench settings***************************************
   "workbench.colorTheme": "Atom One Darker",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none",
@@ -41,27 +42,27 @@
       "panelTitle.inactiveForeground": "#FFFFFF70",
       "badge.background": "#ff4500",
       "profileBadge.background": "#ff4500",
-      "activityBarBadge.background": "#ff4500",
-    },
+      "activityBarBadge.background": "#ff4500"
+    }
   },
   "security.workspace.trust.untrustedFiles": "open",
   "breadcrumbs.enabled": false,
   "workbench.editor.dragToOpenWindow": true,
 
-  //Window 
-  "window.title": "${activeEditorShort}${separator}${rootName}", 
+  //Window*****************************************************
+  "window.title": "${activeEditorShort}${separator}${rootName}",
   "window.commandCenter": false,
   "window.titleBarStyle": "custom",
 
-  // Terminal
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  // Terminal***************************************************
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.cursorWidth": 2,
-  // Git
+  // Git*******************************************************
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "always",
-  // Editor
+  // Editor****************************************************
   "editor.mouseWheelZoom": true,
   "editor.fontSize": 20,
   "editor.tabSize": 2,
@@ -91,37 +92,43 @@
   // },
   "editor.linkedEditing": true,
   "editor.tokenColorCustomizations": {
-    // add rules for your code colors
+    // add rules for your code colors*********************************
+    // Recommended to use base scope.
     "textMateRules": [
       {
-        "scope": [
-          "variable.language.this.ts"
-        ],
+        "scope": ["variable.language.this.ts", "variable.language.this.js"],
         "settings": {
-          "foreground": "#d9ff00",
+          "foreground": "#d9ff00"
         }
       },
       {
-        "scope": [
-          "meta.object-literal.key.ts"
-        ],
+        "scope": ["meta.object-literal.key.ts", "meta.object-literal.key.js"],
         "settings": {
-          "foreground": "#ff00b3",
+          "foreground": "#ff00b3"
         }
       },
       {
-        "scope": [
-          "string.quoted.single.ts",
-          "string.quoted.double.ts"
-        ],
+        "scope":"string.quoted",
         "settings": {
           "fontStyle": "italic"
         }
-      }
+      },
+      {
+        "scope": ["storage.type.function.ts", "storage.type.function.js"],
+        "settings": {
+          "foreground": "#fcf12e"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#91919191"
+        }
+      },
     ]
   },
 
-  //Explorer
+  //Explorer*******************************************************
   "explorer.compactFolders": false,
   // "explorer.fileNesting.enabled": true,
   // "explorer.fileNesting.patterns": {
@@ -132,24 +139,25 @@
   //   "tsconfig.json": "tsconfig.*.json",
   //   "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml"
   // },
-  
-  //Code Runner
+
+  //Code Runner****************************************************
   "code-runner.runInTerminal": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
   "code-runner.executorMap": {
     "powershell": "powershell -ExecutionPolicy ByPass -File",
     "csharp": "cd $dir && dotnet run",
-    "typescript": "tsc $fileName && node $fileNameWithoutExt.js"
+    "typescript": "tsc $fileName && node $fileNameWithoutExt.js",
+    "javascript": "cls && cd $dir && node $fileName"
   },
-  //Error Lens
+  //Error Lens*****************************************************
   "errorLens.enabledDiagnosticLevels": [
     "error",
     "warning",
-    "info",
+    "info"
     // "hint"
   ],
-  //Indent Rainbow
+  //Indent Rainbow***********************************************
   "indentRainbow.indicatorStyle": "light",
   "indentRainbow.colors": [
     "rgba(98, 186, 39,0.9)",
@@ -163,14 +171,14 @@
   ],
   "indentRainbow.errorColor": "rgba(128,32,32,0.9)",
   "indentRainbow.tabmixColor": "rgba(128,32,96,0.9)",
-  //Indenticator
+  //Indenticator******************************************
   "indenticator.color.dark": "#FFF",
   "indenticator.inner.color.dark": "#FFF",
   "indenticator.width": 1,
   "indenticator.inner.showHover": false,
-  // Path Intelligence
+  // Path Intelligence************************************
   "path-intellisense.autoSlashAfterDirectory": true,
-  // Better Comments
+  // Better Comments**************************************
   "better-comments.highlightPlainText": true,
   "better-comments.tags": [
     {
@@ -244,7 +252,7 @@
       "italic": false
     }
   ],
-  //Prettier / Formatters
+  //Prettier / Formatters **************************************
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -258,24 +266,51 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[scss]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "diffEditor.ignoreTrimWhitespace": true,
   "gitlens.views.stashes.files.layout": "list",
-  // Inlay Hints Settings
-  "javascript.inlayHints.enumMemberValues.enabled": true,
-  "javascript.inlayHints.parameterNames.enabled": "all",
-  "typescript.inlayHints.enumMemberValues.enabled": true,
-  "typescript.inlayHints.parameterNames.enabled": "all",
-  "editor.inlayHints.padding": true,
-  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-  // Code References Settings
-  "javascript.referencesCodeLens.enabled": true,
-  "javascript.referencesCodeLens.showOnAllFunctions": true,
-  "typescript.referencesCodeLens.enabled": true,
-  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "gitlens.views.scm.grouped.views": {
+    "commits": false,
+    "branches": true,
+    "remotes": true,
+    "stashes": false,
+    "tags": true,
+    "worktrees": true,
+    "contributors": true,
+    "repositories": false,
+    "searchAndCompare": true,
+    "launchpad": false
+  },
+  "hexeditor.columnWidth": 20,
+  "hexeditor.showDecodedText": true,
+  "hexeditor.defaultEndianness": "big",
+  "hexeditor.inspectorType": "hover",
+  "git.enableSmartCommit": true,
+  "debug.javascript.automaticallyTunnelRemoteServer": false,
+  "debug.allowBreakpointsEverywhere": true,
+  "debug.showBreakpointsInOverviewRuler": true,
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  // Inlay Hints Settings *********************************************
+  // "javascript.inlayHints.enumMemberValues.enabled": true,
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // "typescript.inlayHints.enumMemberValues.enabled": true,
+  // "typescript.inlayHints.parameterNames.enabled": "all",
+  // "editor.inlayHints.padding": true,
+  // "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  // "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  // code references settings ******************************************
+  // "javascript.referencesCodeLens.showOnAllFunctions": true,
+  // "typescript.referencesCodeLens.showOnAllFunctions": true,
+  // "javascript.referencesCodeLens.enabled": true,
+  // "typescript.referencesCodeLens.enabled": true,
 }
