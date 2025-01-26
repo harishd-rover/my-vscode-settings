@@ -1,4 +1,4 @@
-// Total Lines : 316
+// Total Lines : 314
 {
   // Workbench settings***************************************
   "workbench.colorTheme": "Atom One Darker",
@@ -108,7 +108,7 @@
         }
       },
       {
-        "scope":"string.quoted",
+        "scope": "string.quoted",
         "settings": {
           "fontStyle": "italic"
         }
@@ -124,7 +124,7 @@
         "settings": {
           "foreground": "#91919191"
         }
-      },
+      }
     ]
   },
 
@@ -271,6 +271,9 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "diffEditor.ignoreTrimWhitespace": true,
   "gitlens.views.stashes.files.layout": "list",
   "gitlens.views.scm.grouped.views": {
@@ -293,13 +296,8 @@
   "debug.javascript.automaticallyTunnelRemoteServer": false,
   "debug.allowBreakpointsEverywhere": true,
   "debug.showBreakpointsInOverviewRuler": true,
-  "security.allowedUNCHosts": [
-    "wsl.localhost"
-  ],
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "tabnine.experimentalAutoImports": true,
+  "security.allowedUNCHosts": ["wsl.localhost"],
+  "tabnine.experimentalAutoImports": true
   // Inlay Hints Settings *********************************************
   // "javascript.inlayHints.enumMemberValues.enabled": true,
   // "javascript.inlayHints.parameterNames.enabled": "all",
